@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-con{
+    width: 100%;
+    height: 500vh;
+}
+
+#landing{
+    width: 100%;
+    height: 90vh;
+    
+}
+
+
+
+#header-con {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1100px 120px;
+    align-items: flex-start;   
+    font-size: 1.5em;
+}
+
+#btn{
+    
+    width: 120px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid rgb(233, 56, 115);
+    background-color: transparent;
+    
+}
+
+#text-con{
+    text-align: center;
+    width: 100%;
+    height: 32vh;
+    padding-top: 150px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+#para-con{
+    width: 100%;
+    height: 20vh;
+    padding-left: 420px;
+    padding-right: 420px;
+    text-align: justify;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    
+}
+
+#get-started{
+    align-items: center;
+    padding-left: 500px;
+
+}
+#btn {
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid rgb(233, 56, 115);
+    background-color: rgb(233, 56, 115);
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+#btn:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+#btn2 {
+    width: 180px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid rgb(233, 56, 115);
+    background-color: rgb(233, 56, 115);
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+#btn2:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+#section2{
+    width: 100%;
+    height: 100vh;
+}
+
+#member1{
+    display: grid;
+    grid-template-columns: 300px 900px;
+    padding-top: 30px;
+}
+#profile1{
+    width: 100%;
+    height: 50px;
+    padding-left: 80px;
+   
+}
+#img1{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+#info1 h4 {
+    font-size: 2.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#info1 p
+{
+    padding-top: 5px;
+    font-size: 1em;
+
+}
+
+#logo-followers{
+    display: grid;
+    grid-template-columns: 500px 200px;
+    padding-top: 180px;
+    padding-left: 300px;
+}
+
+#follower1 h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    padding-top: 2px;
+}
+
+#follower1 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    color: rgb(131, 135, 139);
+}
+
+#follower2 h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    padding-top: 2px;
+}
+
+#follower2 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    color: rgb(131, 135, 139);
+}
+
+#section3{
+    width: 100%;
+    
+}
+
+#back-logo-con{
+    display: grid;
+    grid-template-columns: 600px 200px;
+    padding-top: 50PX;
+
+}
+
+#svg-text h1{
+    font-size: 2.5em;
+padding-top: 150px;
+padding-left: 50PX;
+}
+
+#svg-text P{
+    padding-top: 20PX;
+    padding-left: 50PX;
+}
+
+#svg-con1 img{
+    max-width: 90%;
+}
+
+#back-con{
+    display: grid;
+    grid-template-columns: 700px 500px;
+    padding-top: 50PX;
+
+}
+
+#ready-con{
+    font-size: 2em;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 300px;
+}
+
+#get-started1{
+    align-items: center;
+    padding-top: 90px;
+    padding-left: 530px;
+}
+
+
+
+
+#footer-con {
+    position: relative;
+    background-color: #0b3a49;
+    color: #fff;
+    padding: 80px 20px 20px;
+    overflow: hidden;
+}
+
+#wave-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: url(#wave-clip); /* Referencing the clip-path */
+    z-index: -2;
+}
+
+.wave-section .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.wave-section .left, .wave-section .right {
+    max-width: 45%;
+}
+
+.wave-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.wave-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.contact-info li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.contact-info span {
+    font-weight: bold;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.wave-section .right h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.wave-section .right form {
+    display: flex;
+    align-items: center;
+}
+
+.wave-section .right form input {
+    padding: 10px;
+    flex: 1;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.wave-section .right form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f06292;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.wave-section .right form button:hover {
+    background-color: #d0456a;
+}
+
+/* SVG Wave for Clip-Path */
+#wave-background {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+}
+
+#wave-background svg {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: -2;
+}
+
+#wave-background svg path {
+    fill: #0b3a49; /* Match the background color */
+}
+
+/* Clip-path for the wave */
+#wave-clip {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.wave-section {
+    position: relative;
+    z-index: 1;
+}
+
+.wave-section svg {
+    display: none;
+}
+
+/* Hiding the svg path when not needed */
+@media screen and (min-width: 768px) {
+    .wave-section svg {
+        display: block;
+        position: absolute;
+        top: -80px; /* Adjust based on design */
+        left: 0;
+        width: 100%;
+        height: auto;
+        z-index: -1;
+    }
+}
